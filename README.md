@@ -67,7 +67,7 @@ Our solution employs a **multi-modal fusion architecture** that leverages both v
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/brats2025-pathology-classification.git
-cd brats2025-pathology-classification
+
 
 conda env create -f environment.yml
 
@@ -79,10 +79,10 @@ conda activate pathology
 
 ### Downloading Pre-trained Weights
 
-1. **Download model weights from Google Drive**:
+1. **Download model weights **:
    ```bash
-   # Download the fine-tuned weights from the huggingface hub: 
-   **Link : https://huggingface.co/Sagar32/Pathology_classification
+   # Download the fine-tuned weights from the huggingface: 
+   Link : https://huggingface.co/Sagar32/Pathology_classification
    ```
 
 2. **Model file structure**:
@@ -117,16 +117,6 @@ conda activate pathology
    ```
 
 
-### Training
-
-```bash
-# Train the complete multi-modal model
-python train.py --config configs/multimodal_config.yaml --gpu 0
-
-# Fine-tune individual components
-python finetune_progigapath.py --data_path ./data --epochs 50
-python train_text_encoder.py --model_name midgemma --batch_size 32
-```
 
 
 ## Performance Metrics
@@ -135,7 +125,7 @@ python train_text_encoder.py --model_name midgemma --batch_size 32
 
 | Metric | Score |
 |--------|-------|
-| **Global Rank** | **5th Place** 🏆 |
+| **Global Rank** | **5th Place**  |
 | **Recall (Macro)** | 75.2% |
 
 
