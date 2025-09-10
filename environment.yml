@@ -1,4 +1,4 @@
-name: giri
+name: pathology
 channels:
   - pytorch
   - nvidia
