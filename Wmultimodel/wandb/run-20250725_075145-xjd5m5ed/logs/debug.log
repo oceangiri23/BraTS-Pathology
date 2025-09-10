@@ -1,0 +1,23 @@
+2025-07-25 07:51:45,040 INFO    MainThread:1154515 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-07-25 07:51:45,041 INFO    MainThread:1154515 [wandb_setup.py:_flush():67] Configure stats pid to 1154515
+2025-07-25 07:51:45,042 INFO    MainThread:1154515 [wandb_setup.py:_flush():67] Loading settings from /home/aavash/.config/wandb/settings
+2025-07-25 07:51:45,042 INFO    MainThread:1154515 [wandb_setup.py:_flush():67] Loading settings from /mnt/Enterprise3/aavash/sagar/Wmultimodel/wandb/settings
+2025-07-25 07:51:45,042 INFO    MainThread:1154515 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-07-25 07:51:45,042 INFO    MainThread:1154515 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /mnt/Enterprise3/aavash/sagar/Wmultimodel/wandb/run-20250725_075145-xjd5m5ed/logs/debug.log
+2025-07-25 07:51:45,042 INFO    MainThread:1154515 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /mnt/Enterprise3/aavash/sagar/Wmultimodel/wandb/run-20250725_075145-xjd5m5ed/logs/debug-internal.log
+2025-07-25 07:51:45,042 INFO    MainThread:1154515 [wandb_init.py:init():761] calling init triggers
+2025-07-25 07:51:45,043 INFO    MainThread:1154515 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'csv_path': 'data/NEW_CSV/Balanced_class_with_caption.csv', 'val_csv_path': 'data/NEW_CSV/Validation_Set.csv', 'image_root': '../', 'checkpoint_dir': 'data/checkpoints/Fifth_for_crossattentionvisualization', 'log_dir': 'data/wandb_logs/', 'image_embedding_dim': 1536, 'text_embedding_dim': 1024, 'hidden_dim': 512, 'num_classes': 9, 'num_attention_heads': 8, 'num_transformer_layers': 2, 'dropout': 0.1, 'batch_size': 32, 'num_epochs': 5, 'learning_rate': '1e-4', 'weight_decay': '1e-5', 'num_workers': 0, 'wandb_project': 'Fifth_for_crossattentionvisualization', 'wandb_entity': 'oceangiri5656', 'wandb_run_name': 'First_Test', 'seed': 42, 'device': 'cuda', 'save_best_only': False, '_wandb': {}}
+2025-07-25 07:51:45,043 INFO    MainThread:1154515 [wandb_init.py:init():784] starting backend
+2025-07-25 07:51:45,043 INFO    MainThread:1154515 [wandb_init.py:init():788] sending inform_init request
+2025-07-25 07:51:45,051 INFO    MainThread:1154515 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-07-25 07:51:45,051 INFO    MainThread:1154515 [wandb_init.py:init():798] backend started and connected
+2025-07-25 07:51:45,054 INFO    MainThread:1154515 [wandb_init.py:init():891] updated telemetry
+2025-07-25 07:51:45,055 INFO    MainThread:1154515 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-07-25 07:51:45,763 INFO    MainThread:1154515 [wandb_init.py:init():990] starting run threads in backend
+2025-07-25 07:51:45,953 INFO    MainThread:1154515 [wandb_run.py:_console_start():2375] atexit reg
+2025-07-25 07:51:45,953 INFO    MainThread:1154515 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-07-25 07:51:45,953 INFO    MainThread:1154515 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-07-25 07:51:45,953 INFO    MainThread:1154515 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-07-25 07:51:45,956 INFO    MainThread:1154515 [wandb_init.py:init():1032] run started, returning control to user process
+2025-07-25 07:52:08,957 INFO    MsgRouterThr:1154515 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

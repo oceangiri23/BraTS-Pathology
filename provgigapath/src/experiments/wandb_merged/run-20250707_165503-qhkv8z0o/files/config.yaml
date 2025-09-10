@@ -1,0 +1,146 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m:
+            - "1": Loss/Validation/recall
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": trainer/global_step
+              "6":
+                - 3
+              "7": []
+            - "1": Loss/Training/mcc
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Training/bacc
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Validation/loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": epoch
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Training/f1score
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Training/precision
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Training/loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Validation/precision
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Validation/bacc
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Validation/auroc
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Validation/mcc
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Validation/f1score
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Training/recall
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": Loss/Training/auroc
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 1
+                - 41
+                - 48
+                - 49
+                - 51
+                - 55
+                - 63
+                - 80
+                - 106
+            "2":
+                - 1
+                - 41
+                - 48
+                - 49
+                - 51
+                - 55
+                - 63
+                - 80
+                - 106
+            "3":
+                - 7
+                - 13
+                - 23
+                - 55
+                - 66
+            "4": 3.10.18
+            "5": 0.19.8
+            "8":
+                - 5
+            "12": 0.19.8
+            "13": linux-x86_64
+augmentation:
+    value: transform_1()
+batch_size:
+    value: 32
+learning_rate:
+    value: 0.001
+lr_decay:
+    value: 0.995
+model:
+    value: ProvGigaPath
+num_classes:
+    value: 9
+weight_decay:
+    value: 0.005

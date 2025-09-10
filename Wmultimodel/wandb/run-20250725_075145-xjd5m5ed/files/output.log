@@ -1,0 +1,62 @@
+/mnt/Enterprise3/aavash/sagar/Wmultimodel/dataloaders/augmentation.py:61: UserWarning: Argument(s) 'scale_min, scale_max' are not valid for transform Downscale
+  A.Downscale(scale_min=0.25, scale_max=0.75, p=0.5),
+/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/albumentations/core/validation.py:114: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+Loading frozen ProGigaPath and BioLinkBERT...
+Loading Complete...
+No checkpoint found. Starting training from scratch.
+
+Starting Epoch [1/5]
+Training:   0%|                                                             | 0/754 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/Enterprise3/aavash/sagar/Wmultimodel/train.py", line 206, in <module>
+    logits = fusion_model(image_embeds, text_embeds, attention_mask)  # [B, num_classes]
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/Enterprise3/aavash/sagar/Wmultimodel/models/modified_cross_attention_transformer.py", line 41, in forward
+    output, attn_weights = layer(output, img_proj, key_padding_mask=None)
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/Enterprise3/aavash/sagar/Wmultimodel/models/custom_cross_attention_layer.py", line 19, in forward
+    attn_output, attn_weights = self.cross_attn(
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/activation.py", line 1373, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/functional.py", line 6147, in multi_head_attention_forward
+    is_batched = _mha_shape_check(
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/functional.py", line 5899, in _mha_shape_check
+    assert key.dim() == 3 and value.dim() == 3, (
+AssertionError: For batched (3-D) `query`, expected `key` and `value` to be 3-D but found 2-D and 2-D tensors respectively
+Traceback (most recent call last):
+  File "/mnt/Enterprise3/aavash/sagar/Wmultimodel/train.py", line 206, in <module>
+    logits = fusion_model(image_embeds, text_embeds, attention_mask)  # [B, num_classes]
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/Enterprise3/aavash/sagar/Wmultimodel/models/modified_cross_attention_transformer.py", line 41, in forward
+    output, attn_weights = layer(output, img_proj, key_padding_mask=None)
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/Enterprise3/aavash/sagar/Wmultimodel/models/custom_cross_attention_layer.py", line 19, in forward
+    attn_output, attn_weights = self.cross_attn(
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/modules/activation.py", line 1373, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/functional.py", line 6147, in multi_head_attention_forward
+    is_batched = _mha_shape_check(
+  File "/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torch/nn/functional.py", line 5899, in _mha_shape_check
+    assert key.dim() == 3 and value.dim() == 3, (
+AssertionError: For batched (3-D) `query`, expected `key` and `value` to be 3-D but found 2-D and 2-D tensors respectively

@@ -1,0 +1,86 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+                - 63
+                - 71
+                - 80
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+                - 63
+                - 71
+                - 80
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.10.18
+            "5": 0.19.8
+            "6": 4.53.2
+            "8":
+                - 5
+            "12": 0.19.8
+            "13": linux-x86_64
+batch_size:
+    value: 32
+checkpoint_dir:
+    value: data/checkpoints/Fifth_for_crossattentionvisualization
+csv_path:
+    value: data/NEW_CSV/Balanced_class_with_caption.csv
+device:
+    value: cuda
+dropout:
+    value: 0.1
+hidden_dim:
+    value: 512
+image_embedding_dim:
+    value: 1536
+image_root:
+    value: ../
+learning_rate:
+    value: "1e-4"
+log_dir:
+    value: data/wandb_logs/
+num_attention_heads:
+    value: 8
+num_classes:
+    value: 9
+num_epochs:
+    value: 5
+num_transformer_layers:
+    value: 2
+num_workers:
+    value: 0
+save_best_only:
+    value: false
+seed:
+    value: 42
+text_embedding_dim:
+    value: 1024
+val_csv_path:
+    value: data/NEW_CSV/Validation_Set.csv
+wandb_entity:
+    value: oceangiri5656
+wandb_project:
+    value: Fifth_for_crossattentionvisualization
+wandb_run_name:
+    value: First_Test
+weight_decay:
+    value: "1e-5"

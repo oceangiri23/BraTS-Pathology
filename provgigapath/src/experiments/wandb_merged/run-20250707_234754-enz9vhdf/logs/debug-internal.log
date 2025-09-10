@@ -1,0 +1,16 @@
+{"time":"2025-07-07T23:47:54.347312812+05:45","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250707_234754-enz9vhdf/logs/debug-core.log"}
+{"time":"2025-07-07T23:47:54.463925172+05:45","level":"INFO","msg":"created new stream","id":"enz9vhdf"}
+{"time":"2025-07-07T23:47:54.463994346+05:45","level":"INFO","msg":"stream: started","id":"enz9vhdf"}
+{"time":"2025-07-07T23:47:54.464016224+05:45","level":"INFO","msg":"writer: Do: started","stream_id":"enz9vhdf"}
+{"time":"2025-07-07T23:47:54.464098063+05:45","level":"INFO","msg":"sender: started","stream_id":"enz9vhdf"}
+{"time":"2025-07-07T23:47:54.464157341+05:45","level":"INFO","msg":"handler: started","stream_id":"enz9vhdf"}
+{"time":"2025-07-07T23:47:55.518654313+05:45","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-08T05:22:11.885471199+05:45","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/ioe-tu-edu-np-/BraTS-Path-Mergeddata/enz9vhdf/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-07-08T08:23:38.798438478+05:45","level":"INFO","msg":"stream: closing","id":"enz9vhdf"}
+{"time":"2025-07-08T08:23:38.798496809+05:45","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-08T08:23:38.799488148+05:45","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-08T08:23:39.952855126+05:45","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-08T08:23:40.823192071+05:45","level":"INFO","msg":"handler: closed","stream_id":"enz9vhdf"}
+{"time":"2025-07-08T08:23:40.823249369+05:45","level":"INFO","msg":"writer: Close: closed","stream_id":"enz9vhdf"}
+{"time":"2025-07-08T08:23:40.823282938+05:45","level":"INFO","msg":"sender: closed","stream_id":"enz9vhdf"}
+{"time":"2025-07-08T08:23:40.823345522+05:45","level":"INFO","msg":"stream: closed","id":"enz9vhdf"}

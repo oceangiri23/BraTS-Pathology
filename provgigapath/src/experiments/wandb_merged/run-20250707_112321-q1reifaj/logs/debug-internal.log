@@ -1,0 +1,17 @@
+{"time":"2025-07-07T11:23:21.153406947+05:45","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250707_112321-q1reifaj/logs/debug-core.log"}
+{"time":"2025-07-07T11:23:21.268593631+05:45","level":"INFO","msg":"created new stream","id":"q1reifaj"}
+{"time":"2025-07-07T11:23:21.268663105+05:45","level":"INFO","msg":"stream: started","id":"q1reifaj"}
+{"time":"2025-07-07T11:23:21.26872637+05:45","level":"INFO","msg":"writer: Do: started","stream_id":"q1reifaj"}
+{"time":"2025-07-07T11:23:21.26880478+05:45","level":"INFO","msg":"sender: started","stream_id":"q1reifaj"}
+{"time":"2025-07-07T11:23:21.268884005+05:45","level":"INFO","msg":"handler: started","stream_id":"q1reifaj"}
+{"time":"2025-07-07T11:23:22.126957489+05:45","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-07T12:13:08.463206634+05:45","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-07T12:13:38.186643884+05:45","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.73:47412->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-07T15:59:26.711702369+05:45","level":"INFO","msg":"stream: closing","id":"q1reifaj"}
+{"time":"2025-07-07T15:59:26.711919871+05:45","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-07T15:59:27.3365018+05:45","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-07T15:59:28.597114621+05:45","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-07T15:59:29.067646757+05:45","level":"INFO","msg":"handler: closed","stream_id":"q1reifaj"}
+{"time":"2025-07-07T15:59:29.067678585+05:45","level":"INFO","msg":"writer: Close: closed","stream_id":"q1reifaj"}
+{"time":"2025-07-07T15:59:29.067686242+05:45","level":"INFO","msg":"sender: closed","stream_id":"q1reifaj"}
+{"time":"2025-07-07T15:59:29.067883304+05:45","level":"INFO","msg":"stream: closed","id":"q1reifaj"}

@@ -1,0 +1,42 @@
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+You are using a CUDA device ('NVIDIA RTX 6000 Ada Generation') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/lightning/pytorch/callbacks/model_checkpoint.py:658: Checkpoint directory /mnt/Enterprise3/aavash/sagar/classification/model/phase_2_mergeddata/checkpoints/BraTS-Path_Expfirst_Fold2_Aug exists and is not empty.
+Restoring states from the checkpoint path at ../../model/phase_2_mergeddata/checkpoints/BraTS-Path_Expfirst_Fold2_Aug/epoch=1_f1.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+
+   | Name                    | Type                       | Params | Mode
+--------------------------------------------------------------------------------
+0  | model                   | ProvGigaPath               | 1.1 B  | train
+1  | objective_function      | CrossEntropyLoss           | 0      | train
+2  | f1_score_training       | MulticlassF1Score          | 0      | train
+3  | f1_score_validation     | MulticlassF1Score          | 0      | train
+4  | balanced_acc_training   | MulticlassAccuracy         | 0      | train
+5  | balanced_acc_validation | MulticlassAccuracy         | 0      | train
+6  | precision_training      | MulticlassPrecision        | 0      | train
+7  | precision_validation    | MulticlassPrecision        | 0      | train
+8  | recall_training         | MulticlassRecall           | 0      | train
+9  | recall_validation       | MulticlassRecall           | 0      | train
+10 | auroc_training          | MulticlassAUROC            | 0      | train
+11 | auroc_validation        | MulticlassAUROC            | 0      | train
+12 | mcc_training            | MulticlassMatthewsCorrCoef | 0      | train
+13 | mcc_validation          | MulticlassMatthewsCorrCoef | 0      | train
+--------------------------------------------------------------------------------
+395 K     Trainable params
+1.1 B     Non-trainable params
+1.1 B     Total params
+4,541.399 Total estimated model params size (MB)
+871       Modules in train mode
+0         Modules in eval mode
+Restored all states from the checkpoint at ../../model/phase_2_mergeddata/checkpoints/BraTS-Path_Expfirst_Fold2_Aug/epoch=1_f1.ckpt
+Epoch 3:  51%|███████████████▊               | 13351/26196 [3:56:34<3:47:36,  0.94it/s, v_num=vhdf, Loss/Validation/loss=0.0744, Loss/Training/loss=0.141]
+/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:432: The combination of `DataLoader(`pin_memory=True`, `persistent_workers=True`) and `Trainer(reload_dataloaders_every_n_epochs > 0)` can lead to instability due to limitations in PyTorch (https://github.com/pytorch/pytorch/issues/91252). We recommend setting `pin_memory=False` in this case.
+/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: No positive samples in targets, true positive value should be meaningless. Returning zero tensor in true positive score
+  warnings.warn(*args, **kwargs)
+/home/aavash/miniconda3/envs/giri/lib/python3.10/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: No negative samples in targets, false positive value should be meaningless. Returning zero tensor in false positive score
+  warnings.warn(*args, **kwargs)
+                                                                                                                                                          
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...

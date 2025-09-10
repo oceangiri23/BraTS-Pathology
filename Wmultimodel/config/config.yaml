@@ -1,0 +1,33 @@
+
+# Paths
+csv_path: "data/NEW_CSV/Balanced_class_with_caption.csv"
+val_csv_path: "data/NEW_CSV/Validation_Set.csv"
+image_root: "../"
+checkpoint_dir: "data/checkpoints/Sixth_visualization"
+log_dir: "data/wandb_logs/"
+
+# Model
+image_embedding_dim: 1536      # output dim of ProGigaPath
+text_embedding_dim: 1024       # output dim of BioLinkBERT
+hidden_dim: 512
+num_classes: 9
+num_attention_heads: 8
+num_transformer_layers: 2
+dropout: 0.1
+
+# Training
+batch_size: 32
+num_epochs: 5
+learning_rate: 1e-4
+weight_decay: 1e-5
+num_workers: 8
+
+# Wandb
+wandb_project: "Sixth_visualization"
+wandb_entity: "oceangiri5656"
+wandb_run_name: "First_Test"
+
+# Misc
+seed: 42
+device: "cuda"  # or "cpu"
+save_best_only: False

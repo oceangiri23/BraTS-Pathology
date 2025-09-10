@@ -1,0 +1,19 @@
+{"time":"2025-07-08T09:43:51.587866645+05:45","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250708_094351-3i5sy3bq/logs/debug-core.log"}
+{"time":"2025-07-08T09:43:51.701049806+05:45","level":"INFO","msg":"created new stream","id":"3i5sy3bq"}
+{"time":"2025-07-08T09:43:51.70110853+05:45","level":"INFO","msg":"stream: started","id":"3i5sy3bq"}
+{"time":"2025-07-08T09:43:51.701174262+05:45","level":"INFO","msg":"writer: Do: started","stream_id":"3i5sy3bq"}
+{"time":"2025-07-08T09:43:51.701231727+05:45","level":"INFO","msg":"sender: started","stream_id":"3i5sy3bq"}
+{"time":"2025-07-08T09:43:51.701247896+05:45","level":"INFO","msg":"handler: started","stream_id":"3i5sy3bq"}
+{"time":"2025-07-08T09:43:52.682301206+05:45","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-08T12:13:42.578169069+05:45","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-08T12:14:11.979092147+05:45","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.73:47504->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-08T14:32:27.271687903+05:45","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ioe-tu-edu-np-/BraTS-Path-Mergeddata/3i5sy3bq/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:50108->127.0.0.53:53: i/o timeout"}
+{"time":"2025-07-08T14:51:57.271448206+05:45","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ioe-tu-edu-np-/BraTS-Path-Mergeddata/3i5sy3bq/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:49371->127.0.0.53:53: i/o timeout"}
+{"time":"2025-07-08T14:54:40.948206042+05:45","level":"INFO","msg":"stream: closing","id":"3i5sy3bq"}
+{"time":"2025-07-08T14:54:40.948275221+05:45","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-08T14:54:40.949383651+05:45","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-08T14:54:43.605921797+05:45","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-08T14:54:48.390253026+05:45","level":"INFO","msg":"handler: closed","stream_id":"3i5sy3bq"}
+{"time":"2025-07-08T14:54:48.390301686+05:45","level":"INFO","msg":"writer: Close: closed","stream_id":"3i5sy3bq"}
+{"time":"2025-07-08T14:54:48.390327754+05:45","level":"INFO","msg":"sender: closed","stream_id":"3i5sy3bq"}
+{"time":"2025-07-08T14:54:48.390441209+05:45","level":"INFO","msg":"stream: closed","id":"3i5sy3bq"}
