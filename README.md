@@ -58,9 +58,6 @@ Our solution employs a **multi-modal fusion architecture** that leverages both v
 - **Architecture**: Multiple classification heads for robust predictions
 - **Activation**: Softmax for probability distribution across classes
 
-## System Requirements
-
-- **GPU**: NVIDIA A6000 (48GB VRAM) 
 
 ## Installation
 
@@ -129,9 +126,6 @@ conda activate pathology
 | **Recall (Macro)** | 75.2% |
 
 
-
-### Hardware Configuration
-- **GPU**: NVIDIA A6000 (48GB VRAM)
 
 
 
