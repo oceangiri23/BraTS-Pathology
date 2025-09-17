@@ -19,7 +19,7 @@ from paths import pc_paths as p
 
 
 import os
-os.environ["HUGGING_FACE_HUB_TOKEN"] = "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"
+os.environ["HUGGING_FACE_HUB_TOKEN"] = ""
 
 
 
